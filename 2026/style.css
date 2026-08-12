@@ -65,6 +65,11 @@ nav ul a {
 
 nav ul a:hover { color: var(--color-accent); text-decoration: none; }
 
+nav ul a[aria-current="page"] {
+  color: var(--color-accent);
+  font-weight: 700;
+}
+
 /* === Hero === */
 #hero {
   max-width: var(--max-width);
@@ -98,6 +103,25 @@ main {
   max-width: var(--max-width);
   margin: 0 auto;
   padding: 0 1.5rem 3rem;
+}
+
+.subpage { padding-top: 3rem; }
+
+.page-intro { margin-bottom: 2rem; }
+
+.page-intro h1 {
+  font-size: 2rem;
+  line-height: 1.25;
+  margin-bottom: 0.75rem;
+}
+
+.eyebrow {
+  color: var(--color-accent);
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.09em;
+  margin-bottom: 0.35rem;
+  text-transform: uppercase;
 }
 
 section { margin-bottom: 3rem; }

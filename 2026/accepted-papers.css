@@ -1,0 +1,53 @@
+.paper-list {
+  display: grid;
+  gap: 1rem;
+}
+
+.paper-card {
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  padding: 1.25rem;
+}
+
+.paper-card h2 {
+  border: 0;
+  font-size: 1.08rem;
+  line-height: 1.4;
+  margin-bottom: 0.45rem;
+  padding: 0;
+}
+
+.paper-authors {
+  font-weight: 600;
+  line-height: 1.5;
+  margin-bottom: 0.2rem;
+}
+
+.paper-affiliations {
+  color: var(--color-muted);
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.paper-actions {
+  align-items: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem 1.25rem;
+  margin-top: 0.8rem;
+}
+
+.paper-actions details { flex: 1 1 100%; }
+
+.paper-actions summary {
+  color: var(--color-accent);
+  cursor: pointer;
+  font-weight: 600;
+  width: max-content;
+}
+
+.paper-actions details p {
+  color: var(--color-muted);
+  font-size: 0.92rem;
+  margin: 0.65rem 0 0;
+}

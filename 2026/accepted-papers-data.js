@@ -458,7 +458,7 @@ window.ACCEPTED_PAPERS = [
         "affiliation": "DoorDash Inc."
       },
       {
-        "name": "Sanjyote Thete",
+        "name": "Sanjyot Thete",
         "affiliation": "DoorDash Inc."
       },
       {
